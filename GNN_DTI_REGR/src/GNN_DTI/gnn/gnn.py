@@ -128,10 +128,6 @@ class gnn(torch.nn.Module):
 
         # In this code, the output function is adapted to go from a
         # classification to a regression
-        # TODO: Fix this
-        # c_H = torch.special.exp2(c_H)
-        # nn.Linear(1,1)
-        # c_H = torch.special.exp2(c_H)
 
         return c_H
 

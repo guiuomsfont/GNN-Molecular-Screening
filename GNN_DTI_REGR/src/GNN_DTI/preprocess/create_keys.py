@@ -36,8 +36,8 @@ def create_keys():
 
     # Partitions are created and their corresponding protein names are
     # obtained.
-    mol_names_train = mol_names_sample[:96]
-    mol_names_test = mol_names_sample[96:]
+    mol_names_train = mol_names_sample[:74]
+    mol_names_test = mol_names_sample[74:]
 
     print("Train set: ", mol_names_train)
 
